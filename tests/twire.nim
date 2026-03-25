@@ -3,7 +3,7 @@
 {.experimental: "strict_funcs".}
 
 import std/unittest
-import sp/wire
+import hydra/wire
 
 suite "wire format":
   test "encode/decode size 0":

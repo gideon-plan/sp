@@ -4,7 +4,7 @@
 
 import std/[unittest, os, atomics]
 import basis/code/choice
-import sp/[pubsub]
+import hydra/[pubsub]
 
 when not declared(pubsub_port):
   const pubsub_port = 41020

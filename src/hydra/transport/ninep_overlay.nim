@@ -1,7 +1,7 @@
 ## ninep_overlay.nim -- SP endpoints as 9P files.
 ##
 ## Exposes SP send/recv as write/read on 9P file descriptors.
-## Basic overlay: write to /sp/send, read from /sp/recv.
+## Basic overlay: write to /hydra/send, read from /hydra/recv.
 
 {.experimental: "strict_funcs".}
 

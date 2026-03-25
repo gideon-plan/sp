@@ -4,7 +4,7 @@
 
 import std/[unittest, os]
 import basis/code/choice
-import sp/[reqrep]
+import hydra/[reqrep]
 
 when not declared(reqrep_port):
   const reqrep_port = 41010

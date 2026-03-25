@@ -4,7 +4,7 @@
 
 import std/[unittest, os]
 import basis/code/choice
-import sp/[bus]
+import hydra/[bus]
 
 when not declared(bus_port):
   const bus_port = 41050

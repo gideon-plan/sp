@@ -4,7 +4,7 @@
 
 import std/[unittest, os]
 import basis/code/choice
-import sp/[survey]
+import hydra/[survey]
 
 when not declared(survey_port):
   const survey_port = 41040

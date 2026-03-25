@@ -4,7 +4,7 @@
 
 import std/[unittest, os]
 import basis/code/choice
-import sp/[pair]
+import hydra/[pair]
 
 when not declared(pair_port):
   const pair_port = 41000

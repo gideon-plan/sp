@@ -3,8 +3,8 @@
 {.experimental: "strict_funcs".}
 
 import std/unittest
-import sp/wire
-import sp/registry
+import hydra/wire
+import hydra/registry
 
 suite "URL parsing":
   test "parse tcp URL":

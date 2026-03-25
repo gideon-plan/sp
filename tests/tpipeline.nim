@@ -4,7 +4,7 @@
 
 import std/[unittest, os]
 import basis/code/choice
-import sp/[pipeline]
+import hydra/[pipeline]
 
 when not declared(pipeline_port):
   const pipeline_port = 41030

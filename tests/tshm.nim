@@ -3,8 +3,8 @@
 {.experimental: "strict_funcs".}
 
 import std/unittest
-import sp/wire
-import sp/transport/shm
+import hydra/wire
+import hydra/transport/shm
 
 suite "shm ring buffer":
   test "write and read":

@@ -3,7 +3,7 @@
 {.experimental: "strict_funcs".}
 
 import std/[unittest, os]
-import sp/[wire, socket, pair]
+import hydra/[wire, socket, pair]
 
 const ipc_path = "/tmp/sp_test.sock"
 
